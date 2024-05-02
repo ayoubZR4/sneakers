@@ -1,0 +1,66 @@
+body{
+    background-image: url(../images/gojo.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+
+
+
+
+.section-contact{
+    margin-top: 90px;
+    }
+      form {
+        font-family: sans-serif;
+        padding-bottom: 80px;
+        display: flex;
+        flex-direction: column;
+        width: 74%;
+        margin: auto;
+        color: white;
+        }
+      
+      .form-nom-email {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+      }
+      
+      .form-column {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+      }
+      
+      input,
+      textarea {
+        opacity: 0.9;
+        padding: 15px;
+        border-radius: 20px;
+        border: none;
+      }
+      
+      label {
+        margin-bottom: 10px;
+      }
+      
+      input[type='submit'] {
+        width: 200px;
+        margin: auto;
+        margin-top: 30px;
+      }
+      .cta {
+     background-color: black;        
+     color: white;
+     border-radius: 50px;
+        
+      }
+      .cta:hover {
+        background: linear-gradient(#0083B0, #00B4DB);
+        text-decoration: none;
+      }

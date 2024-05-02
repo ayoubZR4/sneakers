@@ -1,0 +1,45 @@
+body{
+    background-image: url(../images/gojo.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+
+
+.cards {
+    margin-top: 10%;
+    margin-left: 20%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .card {
+    padding: 10%;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color : white;
+    display: grid;
+    grid-template-rows: max-content 200px 1fr;
+  }
+  
+  .card img {
+    border-radius: 10px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  h2{
+    margin-bottom: 5%;
+    color: white;
+    text-align: center;
+  }
+  p{
+    margin-top: 5%;
+    color: white;
+    text-align: center;
+  }
